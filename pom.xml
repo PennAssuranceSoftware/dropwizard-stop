@@ -8,7 +8,7 @@
         <version>0.32.1</version>
     </parent>
 
-    <groupId>io.dropwizard</groupId>
+    <groupId>com.pennassurancesoftware.dropwizard</groupId>
     <artifactId>dropwizard-stop</artifactId>
     <version>0.8.2-SNAPSHOT</version>
     <name>Dropwizard Stop Support</name>
@@ -24,10 +24,12 @@
         <system>github</system>
         <url>   https://github.com/PennAssuranceSoftware/dropwizard-stop/issues</url>
     </issueManagement>
+    
     <ciManagement>
         <system>codeship</system>
         <url>https://codeship.com/projects/105715</url>
     </ciManagement>
+    
     <scm>
         <connection>scm:git:git@github.com:PennAssuranceSoftware/dropwizard-stop.git</connection>
         <developerConnection>scm:git:git@github.com:PennAssuranceSoftware/dropwizard-stop.git</developerConnection>
