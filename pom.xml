@@ -22,14 +22,14 @@
 
     <issueManagement>
         <system>github</system>
-        <url>   https://github.com/PennAssuranceSoftware/dropwizard-stop/issues</url>
+        <url>https://github.com/PennAssuranceSoftware/dropwizard-stop/issues</url>
     </issueManagement>
-    
+
     <ciManagement>
         <system>codeship</system>
         <url>https://codeship.com/projects/105715</url>
     </ciManagement>
-    
+
     <scm>
         <connection>scm:git:git@github.com:PennAssuranceSoftware/dropwizard-stop.git</connection>
         <developerConnection>scm:git:git@github.com:PennAssuranceSoftware/dropwizard-stop.git</developerConnection>
@@ -60,6 +60,14 @@
             <groupId>io.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
             <version>${dropwizard.version}</version>
+        </dependency>
+        
+        <!-- Test -->
+        <dependency>
+            <groupId>org.easytesting</groupId>
+            <artifactId>fest-assert</artifactId>
+            <version>1.4</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -118,7 +126,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
-                    <groups>unit</groups>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
 
