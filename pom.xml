@@ -10,7 +10,7 @@
 
     <groupId>com.pennassurancesoftware.dropwizard</groupId>
     <artifactId>dropwizard-stop</artifactId>
-    <version>0.8.2-SNAPSHOT</version>
+    <version>0.8.2</version>
     <name>Dropwizard Stop Support</name>
 
     <properties>
